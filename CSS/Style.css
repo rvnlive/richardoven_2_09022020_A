@@ -724,6 +724,50 @@ summary {
     padding: 7px 0;
     margin-bottom: 20px;
   }
+
+  /**ACCOMMODATIONS**/
+  .accommodations__wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    flex-grow: 2;
+    order: 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border-radius: 25px;
+    margin-top: 20px;
+  }
+  .accommodations__detailed-picture {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 240px;
+    max-width: 240px;
+    height: 190px;
+    flex-grow: 1;
+    flex-shrink: 2;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.13), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px;
+  }
+  .accommodations__picture {
+    background-size: cover;
+    width: 95vw;
+    height: 105px;
+    border: 6px solid white;
+    border-top-left-radius: 17px;
+    border-top-right-radius: 17px;
+  }
+  .accommodation__details {
+    display: block;
+    margin: -10px 0 0 15px;
+    line-height: 1.4em;
+  }
+
+  .show-more {
+    padding-left: 15px;
+    margin: 20px 0 20px 15px;
+  }
 }
 
 /**TABLET SIZE**/
