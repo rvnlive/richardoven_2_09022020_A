@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="Reservia"
+      content="Online database for any vacation destinations"
+    />
+    <!--Mobile Sizing-->
+    <meta name="viewport" content="width=device-width" />
+    <!--CSS-->
+    <link href="CSS/Style.css" type="text/css" rel="stylesheet" />
+    <!--Font Awesome-->
+    <script defer src="js/brands.js"></script>
+    <script defer src="js/solid.js"></script>
+    <script defer src="js/fontawesome.js"></script>
+    <!-- GOOGLE FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Reservia</title>
+  </head>
+
+  <body>
+    <div class="page-wrapper">
+      <div class="navigationbar">
+        <div class="branding">
+          <img
+            src="Images/logo/Reservia@3x.png"
+            href="#"
+            width="90"
+            height="40"
+            style="margin: 10px 0 10px 15px"
+            alt="Reservia"
+          />
+        </div>
+        <ul class="tabs">
+          <li class="accommodations-tab">
+            <a class="accommodations-tab__link" href="#Accommodations"
+              >Accommodations</a
+            >
+          </li>
+          <li class="activities-tab">
+            <a class="activities-tab__link" href="#Activities"> Activities </a>
+          </li>
+        </ul>
+        <div class="navigationbar__signup">
+          <div>
+            <a class="signup-btn" href="#" alt="Sign Up">Sign Up</a>
+          </div>
+        </div>
+      </div>
+
+      <head>
+        <h1 class="heading">Find a place for your dream vacation</h1>
+        <p class="sub-heading">Downtown or in nature</p>
+      </head>
+
+      <!-- SEARCH BAR-->
+      <div class="location-search-bar">
+        <i class="fas fa-map-marker-alt"></i>
+        <input class="search-bar" type="text" placeholder="Marseille, France" />
+        <div class="btn">
+          <span class="button-icon"><i class="fas fa-search"></i></span>
+          <span class="src-btn-text">Search</span>
+        </div>
+      </div>
+
+      <!-- FILTERS -->
+      <div class="filter-wrapper">
+        <p class="filters-heading">Filters</p>
+        <div class="filters">
+          <div class="filter-button">
+            <button class="button-modifier">
+              <i class="fas fa-money-bill-wave filter__ico"></i>Low cost
+            </button>
+          </div>
+          <div class="filter-button" id="button-2">
+            <button class="button-modifier">
+              <i class="fas fa-heart filter__ico"></i>Romantic
+            </button>
+          </div>
+          <div class="filter-button">
+            <button class="button-modifier">
+              <i class="fas fa-child filter__ico"></i>Family-friendly
+            </button>
+          </div>
+          <div class="filter-button" id="button-3">
+            <button class="button-modifier">
+              <i class="fas fa-dog filter__ico"></i>Pets allowed
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- INFORMATION -->
+      <span>
+        <div class="local-information">
+          <i class="fas fa-info" id="fa-info"></i>
+          <div style="margin-left: 10px; margin-top: 3px">
+            More than 500 accommodations are available in this city
+          </div>
+        </div>
+      </span>
+
+      <!--MOST POPULAR SIDEBAR-->
+      <div class="container">
+        <div class="main__wrapper">
+          <!--MOST POPULAR SIDEBAR-->
+          <aside class="most-popular__wrapper">
+            <section class="most-popular">
+              <header
+                style="
+                  padding: 30px 0 20px 0;
+                  font-size: 25px;
+                  font-weight: 700;
+                "
+              >
+                Most Popular<i
+                  class="fas fa-chart-line"
+                  style="float: right; margin: 5px 0 0 0"
+                ></i>
+              </header>
+              <div class="most-popular__container">
+                <div class="most-popular__hotels">
+                  <div
+                    alt="Picture of a room in Morning Sun Hotel"
+                    class="most-popular__picture __pic1"
+                  ></div>
+
+                  <div class="most-popular__details">
+                    <div class="most-popular__main-detail">
+                      Morning Sun Hotel
+                    </div>
+                    <div class="most-popular__sub-detail">
+                      Night starting at <b>€128</b>
+                    </div>
+                    <div class="most-popular__rating" style="margin-top: 5px">
+                      <i class="fas fa-star checked" id="rating-full"></i>
+                      <i class="fas fa-star checked" id="rating-full"></i>
+                      <i class="fas fa-star checked" id="rating-full"></i>
+                      <i class="fas fa-star checked" id="rating-full"></i>
+                      <i class="fas fa-star checked" id="rating-full"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="most-popular__hotels">
+                  <div
+                    alt="Picture of a room in Au Coeur de l'Eau Hotel"
+                    class="most-popular__picture __pic2"
+                  ></div>
+                  <div class="most-popular__details">
+                    <div
+                      class="most-popular__main-detail"
+                      style="margin-top: 5px"
+                    >
+                      Au Coeur de l'Eau Bed and Breakfast
+                    </div>
+                    <div
+                      class="most-popular__sub-detail"
+                      style="margin-top: -15px"
+                    >
+                      Night starting at <b>€71</b>
+                    </div>
+                    <div
+                      class="most-popular__rating"
+                      style="margin-top: -5px; padding-top: 20px"
+                    >
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="most-popular__hotels">
+                  <div
+                    alt="Picture of a room in Tout Bleu et Blanc Hotel"
+                    class="most-popular__picture __pic3"
+                  ></div>
+                  <div class="most-popular__details">
+                    <div
+                      class="most-popular__main-detail"
+                      style="margin-top: 5px"
+                    >
+                      Tout Bleu et Blanc Hotel
+                    </div>
+                    <div
+                      class="most-popular__sub-detail"
+                      style="margin-top: -15px"
+                    >
+                      Night starting at <b>€68</b>
+                    </div>
+                    <div
+                      class="most-popular__rating"
+                      style="margin-top: -5px; padding-top: 20px"
+                    >
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </aside>
+          <!--MAIN CONTENT-->
+          <div class="accommodations__wrapper">
+            <div class="accommodations__title">
+              <a name="Accommodations"></a>
+              Accommodations in Marseille
+            </div>
+            <div class="accommodations__block">
+              <div class="accommodations__detailed-picture">
+                <div
+                  alt="Room in Auberge la Cannabiére"
+                  class="accommodations__picture accom-picture-1"
+                ></div>
+                <div class="accommodation__details">
+                  <div class="accommodation__main-detail">
+                    Auberge la Cannebière
+                  </div>
+                  <div class="accommodation__sub-detail">
+                    Night starting at <b>€25</b>
+                  </div>
+                  <div class="accommodation__rating">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="accommodations__detailed-picture">
+                <div
+                  alt="Room in Hôtel du port"
+                  class="accommodations__picture accom-picture-2"
+                ></div>
+                <div class="accommodation__details">
+                  <div class="accommodation__main-detail">Hôtel du port</div>
+                  <div class="accommodation__sub-detail">
+                    Night starting at <b>€52</b>
+                  </div>
+                  <div class="accommodation__rating">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="accommodations__detailed-picture">
+                <div
+                  alt="Room in Les mouettes Hotel"
+                  class="accommodations__picture accom-picture-3"
+                ></div>
+                <div class="accommodation__details">
+                  <div class="accommodation__main-detail">
+                    Les mouettes Hotel
+                  </div>
+                  <div class="accommodation__sub-detail">
+                    Night starting at <b>€76</b>
+                  </div>
+                  <div class="accommodation__rating">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="accommodations__detailed-picture">
+                <div
+                  alt="Room in Hôtel de la mer"
+                  class="accommodations__picture accom-picture-4"
+                ></div>
+                <div class="accommodation__details">
+                  <div class="accommodation__main-detail">Hôtel de la mer</div>
+                  <div class="accommodation__sub-detail">
+                    Night starting at <b>€46</b>
+                  </div>
+                  <div class="accommodation__rating">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="accommodations__detailed-picture">
+                <div
+                  alt="Room in Auberge Le Panier"
+                  class="accommodations__picture accom-picture-5"
+                ></div>
+                <div class="accommodation__details">
+                  <div class="accommodation__main-detail">
+                    Auberge Le Panier
+                  </div>
+                  <div class="accommodation__sub-detail">
+                    Night starting at <b>€23</b>
+                  </div>
+                  <div class="accommodation__rating">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="accommodations__detailed-picture">
+                <div
+                  alt="Room in Hôtel chez Amina"
+                  class="accommodations__picture accom-picture-6"
+                ></div>
+                <div class="accommodation__details">
+                  <div class="accommodation__main-detail">Hôtel chez Amina</div>
+                  <div class="accommodation__sub-detail">
+                    Night starting at <b>€96</b>
+                  </div>
+                  <div class="accommodation__rating">
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                    <i class="fas fa-star checked"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="show-more">
+              <summary class="show-more__button">Show more</summary>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="activities-container">
+        <article class="activities-section">
+          <div class="activities__title">
+            <a name="Activities"></a>
+            Activities in Marseille
+          </div>
+          <div class="activities-grouping">
+            <div class="left-side-group spacing">
+              <div class="activity-objects object1">
+                <div class="activity-object __activity1">
+                  <div alt="Old Port" class="activity-pictures picture-1"></div>
+                  <div class="activity__main-detail detail1">Old Port</div>
+                </div>
+              </div>
+              <div class="left-side-group __right-side">
+                <div class="activity-objects object2">
+                  <div class="activity-object __activity2">
+                    <div
+                      alt="Pomègues Fort"
+                      class="activity-pictures picture-2"
+                    ></div>
+                    <div class="activity__main-detail detail2">
+                      Pomègues Fort
+                    </div>
+                  </div>
+                </div>
+                <div class="activity-objects object3">
+                  <div class="activity-object __activity3">
+                    <div
+                      alt="Frioul Island"
+                      class="activity-pictures picture-3"
+                    ></div>
+                    <div class="activity__main-detail detail3">
+                      Frioul Island
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="right-side-group">
+              <div class="activity-objects object4">
+                <div class="activity-object __activity4">
+                  <div
+                    alt="Calanques National Park"
+                    class="activity-pictures picture-4"
+                  ></div>
+                  <div class="activity__main-detail detail4">
+                    Calanques National Park
+                  </div>
+                </div>
+              </div>
+              <div class="right-side-group __right-side">
+                <div class="activity-objects object5">
+                  <div class="activity-object __activity5">
+                    <div
+                      alt="Notre-Dame-de-la-Garde"
+                      class="activity-pictures picture-5"
+                    ></div>
+                    <div class="activity__main-detail detail5">
+                      Notre-Dame-de-la-Garde
+                    </div>
+                  </div>
+                </div>
+                <div class="activity-objects object6">
+                  <div class="activity-object __activity6">
+                    <div
+                      alt="Longchamp Park"
+                      class="activity-pictures picture-6"
+                    ></div>
+                    <div class="activity__main-detail detail6">
+                      Longchamp Park
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!--FOOTER AREA-->
+    <div class="footer-container">
+      <div class="footer-nav">
+        <div class="footer-nav__block">
+          <div class="footer-nav__container">
+            <ul class="footer-nav__content">
+              <header style="padding-bottom: 0.7em; font-size: 1.25rem">
+                About
+              </header>
+              <li><a href="#" class="footer-nav-link">Site Map</a></li>
+              <li>
+                <a href="#" class="footer-nav-link"
+                  >General Terms and Conditions</a
+                >
+              </li>
+              <li><a href="#" class="footer-nav-link">Data and Privacy</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav__container">
+            <ul class="footer-nav__content">
+              <header style="padding-bottom: 0.7em; font-size: 1.25rem">
+                Our accommodations
+              </header>
+              <li>
+                <a href="#" class="footer-nav-link">Quality Assessment</a>
+              </li>
+              <li><a href="#" class="footer-nav-link">You have a hotel?</a></li>
+            </ul>
+          </div>
+          <div class="footer-nav__container container-3">
+            <ul class="footer-nav__content">
+              <header style="padding-bottom: 0.7em; font-size: 1.25rem">
+                Assistance
+              </header>
+              <li><a href="#" class="footer-nav-link">Help Desk</a></li>
+              <li><a href="#" class="footer-nav-link">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
