@@ -1054,7 +1054,7 @@ summary {
 }
 
 /**LAPTOP AND DESKTOP SIZE**/
-@media all and (min-width: 1024px) and (max-width: 1359px) {
+@media all and (min-width: 1024px) and (max-width: 1299px) {
   .navigationbar {
     display: flex;
     flex-flow: row nowrap;
@@ -1330,7 +1330,7 @@ summary {
 }
 
 /**EVERY OTHER LARGE SCREENS**/
-@media all and (min-width: 1360px) {
+@media all and (min-width: 1300px) {
   .page-wrapper {
     display: flex;
     flex-flow: column nowrap;
@@ -1544,11 +1544,12 @@ summary {
     display: flex;
     flex-flow: row nowrap;
     border-style: none;
+    flex-shrink: 2;
     border-radius: 20px;
     border-color: transparent;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.13),
       0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    margin: 10px 0 0 auto;
+    margin: 10px 1.5rem 0 0;
     width: 280px;
   }
 
