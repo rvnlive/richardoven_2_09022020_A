@@ -91,6 +91,7 @@ summary {
 }
 .sub-heading {
   padding-left: 15px;
+  margin-top: 0;
 }
 
 /* LOCATION SEARCH */
@@ -194,7 +195,7 @@ input.search-bar {
     border-bottom-right-radius: 15px;
     width: 50px;
     height: 25px;
-    padding: 14px 20px 11px 20px;
+    padding: 15px 20px 10px 20px;
   }
 }
 
@@ -1377,7 +1378,6 @@ button {
   .page-wrapper {
     display: flex;
     flex-flow: column nowrap;
-    align-content: center;
     margin: 0 auto 0 auto;
     max-width: 1400px;
   }
@@ -1576,12 +1576,13 @@ button {
 
   .activities-section {
     margin-bottom: 50px;
+    margin-right: 0;
   }
   .activities-grouping {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-    align-items: center;
+    margin: auto;
   }
   .activity-objects {
     display: flex;
