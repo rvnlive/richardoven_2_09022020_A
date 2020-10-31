@@ -147,15 +147,25 @@ input.search-bar {
   height: 25px;
   padding: 10px 10px;
 }
+.btn:active {
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
 
 .src-btn-text {
   color: white;
+}
+.src-btn-text:active {
+  color: #0065fc;
 }
 
 .fa-search {
   display: inline-block;
   color: white;
   padding-top: 4px;
+}
+.fa-search:active {
+  color: #0065fc;
 }
 @media (min-width: 750px) {
   span.button-icon {
@@ -172,6 +182,19 @@ input.search-bar {
     width: 50px;
     height: 25px;
     padding: 11px 20px 11px 20px;
+  }
+  span.src-btn-text:active {
+    display: inline-block;
+    background-color: #f2f2f2;
+    border: 2px solid #f2f2f2;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 700;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    width: 50px;
+    height: 25px;
+    padding: 14px 20px 11px 20px;
   }
 }
 
@@ -859,11 +882,8 @@ button {
     margin: 0 15px 0 15px;
   }
   .btn {
-    font-family: "Raleway", sans-serif;
-    font-size: medium;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
     align-items: center;
     color: white;
     background-color: #0065fc;
@@ -1135,11 +1155,8 @@ button {
     margin: 0 15px 0 15px;
   }
   .btn {
-    font-family: "Raleway", sans-serif;
-    font-size: medium;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
     align-items: center;
     color: white;
     background-color: #0065fc;
