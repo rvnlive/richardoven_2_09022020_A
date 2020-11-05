@@ -1593,7 +1593,7 @@ button {
     border-color: transparent;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.13),
       0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    margin: 10px 1.5rem 0 0;
+    margin: 10px 3rem 0 0;
     width: 280px;
   }
 
@@ -1613,13 +1613,14 @@ button {
     background-position-y: -25px;
     height: 100px;
   }
-  .right-side-group {
-    margin-left: 1.5rem;
+  .left-side-group {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
   }
   .__right-side {
     display: flex;
     flex-flow: column wrap;
-    margin-left: 1.5rem;
   }
   .activity__main-detail {
     max-height: 30px;
@@ -1627,6 +1628,9 @@ button {
   .detail1 {
     height: 50px;
     padding-bottom: 10px;
+  }
+  .object1 {
+    margin-left: 0;
   }
   .object2 {
     margin-bottom: 30px;
@@ -1656,12 +1660,19 @@ button {
     background-position-y: -28px;
     height: 125px;
   }
+  .object4 {
+    margin-left: 0;
+  }
   .detail4 {
     height: 50px;
     padding-bottom: 10px;
   }
   .object5 {
     margin-bottom: 30px;
+    margin-right: 0;
+  }
+  .object6 {
+    margin-right: 0;
   }
   .detail5 {
     min-height: 50px;
@@ -1676,14 +1687,18 @@ button {
   .footer-nav {
     display: flex;
     flex-flow: row wrap;
+    justify-content: left;
+    align-items: flex-start;
+    max-width: 1400px;
+    margin-left: auto;
   }
   .footer-nav__container {
     margin-right: 7rem;
   }
   .footer-nav__block {
     display: flex;
-    flex-flow: row;
+    flex-flow: row nowrap;
+    justify-content: left;
     max-width: 1400px;
-    margin-right: auto;
   }
 }
