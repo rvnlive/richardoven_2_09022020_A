@@ -674,6 +674,12 @@ button {
   margin: 0.35rem 0 0 0;
 }
 
+.footer-content__title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
 .footer-nav-link {
   line-height: 1.8em;
   font-size: 1.1rem;
