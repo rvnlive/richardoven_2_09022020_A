@@ -17,7 +17,7 @@
     <script defer src="JS/fontawesome.js"></script>
     <!-- GOOGLE FONT -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
 
@@ -30,11 +30,10 @@
         <div class="branding">
           <img
             src="Images/logo/Reservia@3x.png"
-            href="#"
             width="90"
             height="40"
             style="margin: 10px 0 10px 15px"
-            alt="Reservia"
+            alt="Reservia website logo"
           />
         </div>
         <ul class="tabs">
@@ -49,21 +48,23 @@
         </ul>
         <div class="navigationbar__signup">
           <div>
-            <a class="signup-btn" href="#" alt="Sign Up">Sign Up</a>
+            <a class="signup-btn" href="#">Sign Up</a>
           </div>
         </div>
       </div>
 
-      <head>
-        <h1 class="heading">Find a place for your dream vacation</h1>
-        <p class="sub-heading">Downtown or in nature</p>
-      </head>
+
+      <h1 class="heading">Find a place for your dream vacation</h1>
+      <p class="sub-heading">Downtown or in nature</p>
+
 
       <!-- SEARCH BAR-->
       <div class="location-search-bar">
+        <div class="location-pin">
         <i class="fas fa-map-marker-alt"></i>
+      </div>
         <input class="search-bar" type="text" placeholder="Marseille, France" />
-        <div class="btn">
+        <div class="search-button">
           <span class="button-icon"><i class="fas fa-search"></i></span>
           <span class="src-btn-text">Search</span>
         </div>
@@ -97,14 +98,12 @@
       </div>
 
       <!-- INFORMATION -->
-      <span>
         <div class="local-information">
           <i class="fas fa-info" id="fa-info"></i>
           <div style="margin-left: 10px; margin-top: 3px">
             More than 500 accommodations are available in this city
           </div>
         </div>
-      </span>
 
       <!--MOST POPULAR SIDEBAR-->
       <div class="container">
@@ -112,18 +111,18 @@
           <!--MOST POPULAR SIDEBAR-->
           <aside class="most-popular__wrapper">
             <section class="most-popular">
-              <header
+              <h2
                 style="
-                  padding: 30px 0 20px 0;
+                  padding: 10px 0 10px 0;
                   font-size: 25px;
                   font-weight: 700;
                 "
               >
                 Most Popular<i
                   class="fas fa-chart-line"
-                  style="float: right; margin: 5px 0 0 0"
+                  style="float: right;"
                 ></i>
-              </header>
+              </h2>
               <div class="most-popular__container">
                 <div class="most-popular__hotels">
                   <div
@@ -139,11 +138,11 @@
                       Night starting at <b>€128</b>
                     </div>
                     <div class="most-popular__rating" style="margin-top: 5px">
-                      <i class="fas fa-star checked" id="rating-full"></i>
-                      <i class="fas fa-star checked" id="rating-full"></i>
-                      <i class="fas fa-star checked" id="rating-full"></i>
-                      <i class="fas fa-star checked" id="rating-full"></i>
-                      <i class="fas fa-star checked" id="rating-full"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
+                      <i class="fas fa-star checked"></i>
                     </div>
                   </div>
                 </div>
@@ -212,10 +211,9 @@
           </aside>
           <!--MAIN CONTENT-->
           <div class="accommodations__wrapper">
-            <div class="accommodations__title">
-              <a name="Accommodations"></a>
+            <h3 class="accommodations__title" id="Accommodations">
               Accommodations in Marseille
-            </div>
+            </h3>
             <div class="accommodations__block">
               <div class="accommodations__detailed-picture">
                 <div
@@ -338,8 +336,8 @@
                 </div>
               </div>
             </div>
-            <div class="show-more">
-              <summary class="show-more__button">Show more</summary>
+            <div class="show-more show-more__button">
+              Show more
             </div>
           </div>
         </div>
@@ -348,8 +346,9 @@
       <div class="activities-container">
         <article class="activities-section">
           <div class="activities__title">
-            <a name="Activities"></a>
+            <h3 id="Activities">
             Activities in Marseille
+            </h3>
           </div>
           <div class="activities-grouping">
             <div class="left-side-group spacing">
@@ -432,9 +431,9 @@
         <div class="footer-nav__block">
           <div class="footer-nav__container">
             <ul class="footer-nav__content">
-              <header style="padding-bottom: 0.7em; font-size: 1.25rem">
+              <h2 style="font-size: 1.25rem">
                 About
-              </header>
+              </h2>
               <li><a href="#" class="footer-nav-link">Site Map</a></li>
               <li>
                 <a href="#" class="footer-nav-link"
@@ -446,9 +445,9 @@
           </div>
           <div class="footer-nav__container">
             <ul class="footer-nav__content">
-              <header style="padding-bottom: 0.7em; font-size: 1.25rem">
+              <h2 style="font-size: 1.25rem">
                 Our accommodations
-              </header>
+              </h2>
               <li>
                 <a href="#" class="footer-nav-link">Quality Assessment</a>
               </li>
@@ -457,9 +456,9 @@
           </div>
           <div class="footer-nav__container container-3">
             <ul class="footer-nav__content">
-              <header style="padding-bottom: 0.7em; font-size: 1.25rem">
+              <h2 style="font-size: 1.25rem">
                 Assistance
-              </header>
+              </h2>
               <li><a href="#" class="footer-nav-link">Help Desk</a></li>
               <li><a href="#" class="footer-nav-link">Contact Us</a></li>
             </ul>
