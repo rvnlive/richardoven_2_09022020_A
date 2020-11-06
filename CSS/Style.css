@@ -1248,7 +1248,7 @@ button {
     flex-flow: column wrap;
     align-content: center;
     justify-content: center;
-    max-width: 1000px;
+    max-width: 800px;
   }
   .activities-grouping {
     display: flex;
@@ -1429,8 +1429,8 @@ button {
     display: flex;
     flex-flow: row-reverse nowrap;
     justify-content: space-between;
+    width: 1360px;
     margin-top: 20px;
-    max-width: 1400px;
   }
   .most-popular__wrapper {
     display: flex;
@@ -1440,7 +1440,7 @@ button {
     background-color: #f2f2f2;
     border-radius: 25px;
     order: 1;
-    max-width: 410px;
+    max-width: 400px;
   }
   .most-popular__hotels {
     margin-bottom: 25px;
@@ -1458,7 +1458,7 @@ button {
     padding: 10px;
     background-color: #f2f2f2;
     border-radius: 25px;
-    max-width: 900px;
+    max-width: 870px;
   }
   .accommodations__title {
     display: inline-block;
@@ -1530,9 +1530,11 @@ button {
   .activities-container {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
-    max-width: 1400px;
-    margin: 0;
+    justify-items: center;
+    align-items: center;
+    width: 1360px;
+    margin-left: auto;
+    margin-right: 0;
   }
   .activities__title {
     display: inline-block;
@@ -1542,13 +1544,13 @@ button {
   }
 
   .activities-section {
-    margin-bottom: 50px;
-    margin-right: 0;
+    margin: 0 0 50px 0;
   }
   .activities-grouping {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
     margin: auto;
   }
   .activity-objects {
@@ -1560,7 +1562,7 @@ button {
     border-color: transparent;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.13),
       0 3px 10px 0 rgba(0, 0, 0, 0.19);
-    margin: 10px 3rem 0 0;
+    margin: 10px 2rem 0 0;
     width: 280px;
   }
 
@@ -1655,17 +1657,18 @@ button {
     display: flex;
     flex-flow: row wrap;
     justify-content: left;
-    align-items: flex-start;
-    max-width: 1400px;
+    align-items: center;
+    max-width: 1360px;
     margin-left: auto;
+    margin-right: auto;
   }
   .footer-nav__container {
-    margin-right: 7rem;
+    margin-right: auto;
   }
   .footer-nav__block {
     display: flex;
     flex-flow: row nowrap;
     justify-content: left;
-    max-width: 1400px;
+    max-width: 1360px;
   }
 }
